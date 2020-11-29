@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/edit_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:gravity="start"
+        android:textSize="48sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您好，欢迎来到知乎日报！"
+        android:gravity="start"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入账号"
+        android:maxLength="9"
+        android:maxLines="1"/>
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:maxLength="9"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+    <CheckBox
+        android:id="@+id/check_bock_bj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同意用户协议"
+        android:layout_gravity="end"/>
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="380sp"
+        android:layout_height="60sp"
+        android:text="登录"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/my_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="没有账号？立即注册"
+        android:layout_gravity="center"/>
+</LinearLayout>
